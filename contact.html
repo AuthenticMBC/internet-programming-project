@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/navbar.css">
+    <link rel="stylesheet" href="./styles/contact.css">
+    <title>Contact us</title>
+    <script src="./js/contact.js"></script>
+</head>
+
+<body>
+    <nav>
+        <h3 class="brandName"><a href="index.html">D-BRAVO</a></h3>
+        <ul id="navbar-pages-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="items.html"> Items</a></li>
+            <li><a href="shopping.html">Shopping</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+
+        <div class="contact-form">
+            <h2 class="intro">Contact Us</h2>
+            <form name="contact-form" onsubmit="return validateForm()">
+                <div class="form-group">
+                    <label for="name">Name*</label>
+                    <input class="input" type="text" name="name">
+                </div>
+                <div class="form-group">
+                    <label for="surname">Surname*</label>
+                    <input class="input" type="text" name="surname">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email*</label>
+                    <input class="input" type="text" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number (Optional)</label>
+                    <input class="input" type="text" name="phone">
+                </div>
+                <div class="form-group">
+                    <label for="subject">Message (Optional)</label>
+                    <textarea name="subject">
+                                </textarea>
+                </div>
+                <div class="form-group">
+                    <input class="btn" type="submit" value="submit">
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <small>Copyright ©2023 | All rights reserved
+            </small>
+        </div>
+    </footer>
+</body>
+
+</html>

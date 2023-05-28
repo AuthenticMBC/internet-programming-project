@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/navbar.css">
+    <link rel="stylesheet" href="./styles/shopping.css">
+</head>
+
+<body>
+    <nav>
+        <h3 class="brandName"><a href="index.html">D-BRAVO</a></h3>
+        <ul id="navbar-pages-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="items.html"> Items</a></li>
+            <li><a href="Shopping.html">Shopping</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+
+        </ul>
+    </nav>
+
+    <form name="purchase">
+        <table>
+            <tbody>
+                <tr style="background-color: blue;">
+                    <th>ITEMS</th>
+                    <th>PROPERTIES</th>
+                    <th>NUMBER OF ITEMS</th>
+                    <th>COSTS ($)</th>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" class="item-name" id="cb1" value="100" name="puma">
+                        <label for="puma">Puma</label>
+                    </td>
+                    <td>
+                        <div class="grid-container">
+                            <input type="radio" name="puma-radio" value="5">
+                            <span class="item-property">Speedcat</span>
+                            <span class="item-price">$250</span>
+                        </div>
+                        <div class="grid-container">
+                            <input type="radio" name="puma-radio" value="10">
+                            <span class="item-property">Classic</span>
+                            <span class="item-price">$350</span>
+                        </div>
+                        <div class="grid-container">
+                            <input type="radio" name="puma-radio" value="15">
+                            <span class="item-property">Ney Cali</span>
+                            <span class="item-price">$450</span>
+                        </div>
+                        <div class="grid-container">
+                            <input type="radio" name="puma-radio" value="30">
+                            <span class="item-property">Mayze</span>
+                            <span class="item-price">$600</span>
+                        </div>
+                    <td>
+                        <select name="puma-quatity" id="quatity1" value="1">
+                            <option value="0" selected disabled>Units</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </td>
+                    <td>
+                        <p class="price" id="price1">$0</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" class="item-name" id="cb2" value="100" name="emporio">
+                        <label for="runner">Emporio-Armani</label>
+                    </td>
+                    <td>
+                        <div class="grid-container">
+                            <input type="radio" name="emporio-radio" value="5">
+                            <span class="item-property">EA7 Mesh</span>
+                            <span class="item-price">$250</span>
+                        </div>
+                        <div class="grid-container">
+                            <input type="radio" name="emporio-radio" value="10">
+                            <span class="item-property">Nylon</span>
+                            <span class="item-price">$300</span>
+                        </div>
+                        <div class="grid-container">
+                            <input type="radio" name="emporio-radio" value="15">
+                            <span class="item-property">Nubuck</span>
+                            <span class="item-price">$350</span>
+                        </div>
+                        <div class="grid-container">
+                            <input type="radio" name="emporio-radio" value="30">
+                            <span class="item-property">Pleated</span>
+                            <span class="item-price">$400</span>
+                        </div>
+                    </td>
+                    <td>
+                        <select name="emporio-quatity" id="quatity2" value="1">
+                            <option value="0" selected disabled>Units</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </td>
+                    <td>
+                        <p class="price" id="price2">$0</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" class="item-name" id="cb3" value="100" name="runner">
+                        <label for="runner">Tree Runner</label>
+                    </td>
+                    <td>
+                        <div class="grid-container">
+                            <input type="radio" name="runner-radio" value="5">
+                            <span class="item-property">Lilac</span>
+                            <span class="item-price">$250</span>
+                        </div>
+                        <div class="grid-container">
+                            <input type="radio" name="runner-radio" value="10">
+                            <span class="item-property">Lux Honey</span>
+                            <span class="item-price">$300</span>
+                        </div>
+                        <div class="grid-container">
+                            <input type="radio" name="runner-radio" value="15">
+                            <span class="item-property">Kaikoura</span>
+                            <span class="item-price">$350</span>
+                        </div>
+                        <div class="grid-container">
+                            <input type="radio" name="runner-radio" value="30">
+                            <span class="item-property">Luna</span>
+                            <span class="item-price">$550</span>
+                        </div>
+                    </td>
+                    <td>
+                        <select name="runner-quatity" id="quatity3" value="1">
+                            <option value="0" selected disabled>Units</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </td>
+                    <td>
+                        <p class="price" id="price3">$0</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" class="item-name" id="cb4" value="100" name="superlight">
+                        <label for="superlight">The SuperLight Tree Runner</label>
+                    </td>
+                    <td>
+                        <div class="grid-container">
+                            <input type="radio" name="superlight-radio" value="5">
+                            <span class="item-property">Blizzard</span>
+                            <span class="item-price">$250</span>
+                        </div>
+
+                        <div class="grid-container">
+                            <input type="radio" name="superlight-radio" value="10">
+                            <span class="item-property">Calm Teal</span>
+                            <span class="item-price">$350</span>
+                        </div>
+
+                        <div class="grid-container">
+                            <input type="radio" name="superlight-radio" value="15">
+                            <span class="item-property">Azure</span>
+                            <span class="item-price">$360</span>
+                        </div>
+
+                        <div class="grid-container">
+                            <input type="radio" name="superlight-radio" value="30">
+                            <span class="item-property">Taupe</span>
+                            <span class="item-price">$450</span>
+                        </div>
+                    </td>
+                    <td>
+                        <select name="superlight-quatity" id="quatity4" value="1">
+                            <option value="0" selected disabled>Units</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </td>
+                    <td>
+                        <p class="price" id="price4">$0</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">Total Cost</td>
+                    <td>
+                        <button id="calculate" class="btn">Calculate</button>
+                    </td>
+                    <td>
+                        <p class="price" id="total">$0</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+
+    <footer>
+        <div class="footer-content">
+            <small>Copyright ©2023 | All rights reserved
+            </small>
+        </div>
+    </footer>
+    <script src="./js/shopping.js"></script>
+</body>
+
+</html>

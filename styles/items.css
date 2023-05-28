@@ -1,0 +1,49 @@
+body {
+  background-color: #f0f4f8;
+  font-family: 'Cabin', Sans-Serif;
+  color: #102a43;
+}
+
+#intro {
+  text-align: center;
+  margin: 4rem;
+}
+
+
+.grid-container {
+  margin-left: 25px;
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  margin-bottom: 30px;
+}
+
+.grid-item {
+  background-color: #F3F0F0;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-bottom: 2.5rem;
+  border-radius: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 8px 24px 0px;
+}
+
+
+.description-item {
+  padding-top: 0.5rem;
+  font-size: 1.5rem;
+  text-align: left;
+  max-width: 355px;
+  margin-left: 5%;
+}
+
+footer {
+  margin-top: 60px;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.footer-content {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
